@@ -476,7 +476,8 @@ video {
 
 iframe,
 embed,
-object {
+object,
+video {
     max-width: 100%;
 }
 
