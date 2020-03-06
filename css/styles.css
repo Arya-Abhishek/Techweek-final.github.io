@@ -278,6 +278,7 @@ header {
     -webkit-background-size: cover;
             background-size: cover;
     position: relative;
+    background-color: #000 !important;
 }
 
 header .color-overlay {
@@ -525,10 +526,11 @@ video {
 -----------------------------------------*/
 
 .download {
-    background: url('http://demo.templateocean.com/premium/template/kane/files/images/bg-3.jpg') no-repeat center fixed;
+    background: url('../assets/images/footer_img.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
             background-size: cover;
     color: #ffffff;
+    
 }
 
 .download .color-overlay {
