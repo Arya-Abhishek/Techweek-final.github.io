@@ -259,7 +259,7 @@ h5 {
     float: left;
     z-index: 1;
     display: block;
-    width: 165px;
+    width: 100%;
     height: 1px;
 }
 
@@ -277,13 +277,11 @@ header {
     background: url(../assets/images/hero.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
             background-size: cover;
-    position: relative;
     background-color: #000 !important;
 }
 
 header .color-overlay {
     min-height: 100vh;
-    z-index: 1;
 }
 
 header .full-screen {
@@ -291,13 +289,6 @@ header .full-screen {
     height: 100px;
 }
 
-.color-overlay-home {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: .7;
-    position: absolute;
-}
 
 /* TOP BAR WITH NAVIGATION */
 
@@ -334,11 +325,12 @@ header .full-screen {
 
 .welcome__landing {
     /* margin: -60% auto ; */
-    margin-top: 200px;
+    margin-top: 180px;
     margin-bottom: 0;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif !important;
-    z-index: 10;
+    padding-bottom: 20px;
+
 }
 
 header .only-logo .navbar {
@@ -660,18 +652,20 @@ footer .copyright {
 }
 
 /* Custom effects */
-h2 {
-    border-bottom: 1.2px solid #1565c0;
-}
 
-h1 {
-    border-bottom: 1px solid #777;
-    text-shadow: 1px #777;
-}
 
 #Events img {
-    margin: 10%;
-    padding-top: 7%;
+    margin-top: 102px;
     width: 100%;
-    height: auto;
+}
+
+ion-icon {
+   margin-right: 10px;
+   margin-bottom: -3px;
+}
+
+.grey-line {
+    margin-top: 10px;
+    border-bottom: 1px solid #777;
+    opacity: .7;
 }
