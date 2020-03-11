@@ -276,7 +276,7 @@ h5 {
 @media screen and (max-width: 450px)
 {
     .animated{
-        transform: translateX(-55px);
+        transform: translateX(-52px);
     }
 }
 header {
