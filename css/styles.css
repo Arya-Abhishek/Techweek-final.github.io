@@ -330,7 +330,8 @@ header .full-screen {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif !important;
     padding-bottom: 20px;
-
+    color: #FFF;
+    z-index: 10;
 }
 
 header .only-logo .navbar {
@@ -433,6 +434,7 @@ header .intro-section .buttons {
     max-width: 250px;
     margin: auto;
     margin-bottom: 80px;
+    
 }
 
 .features .phone-image img {
@@ -657,6 +659,7 @@ footer .copyright {
 #Events img {
     margin-top: 102px;
     width: 100%;
+    max-width: 100%;
 }
 
 ion-icon {
@@ -669,3 +672,4 @@ ion-icon {
     border-bottom: 1px solid #777;
     opacity: .7;
 }
+
